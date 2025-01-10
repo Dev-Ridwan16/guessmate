@@ -1,22 +1,20 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import { Auth } from "@/components/screens/Authentications/Auth"
-import { Home } from "@/components/screens/Home"
-import Login from "@/components/screens/Authentications/Login"
-import { NavigationContainer, NavigationIndependentTree } from "@react-navigation/native"
-import { Register } from "@/components/screens/Authentications/Register"
-import { VerifyEmail } from "@/components/screens/Authentications/VerifyEmail"
-import { SuccessPage } from "@/components/screens/Authentications/SuccessPage"
-import { PersonalizeApproach } from "@/components/screens/PersonalizeApproach"
-import { HairType } from "@/components/screens/HairType"
+import Welcome from "@/components/screens/Welcome"
+import HomePage from "@/components/screens/HomePage"
+import SelectedDeck from "@/components/screens/SelectedDeck"
+import NewDeck from "@/components/screens/NewDeck"
 
 const Stack = createNativeStackNavigator()
 export default function HomeScreen() {
   return (
     // <NavigationIndependentTree>
-      // <NavigationContainer>
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="Auth" component={Auth} />
-          <Stack.Screen name="Login" component={Login} />
+    // <NavigationContainer>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="Welcome" component={Welcome} />
+      <Stack.Screen name="HomePage" component={HomePage} />
+      <Stack.Screen name="NewDeck" component={NewDeck} />
+      <Stack.Screen name="SelectedDeck" component={SelectedDeck} />
+      {/* <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Register" component={Register} />
           <Stack.Screen
             name="VerifyEmail"
@@ -25,9 +23,9 @@ export default function HomeScreen() {
           />
           <Stack.Screen name="SuccessPage" component={SuccessPage} />
           <Stack.Screen name="Home" component={PersonalizeApproach} />
-          <Stack.Screen name="HairType" component={HairType} />
-        </Stack.Navigator>
-      // </NavigationContainer>
+          <Stack.Screen name="HairType" component={HairType} /> */}
+    </Stack.Navigator>
+    // </NavigationContainer>
     // </NavigationIndependentTree>
   )
 }

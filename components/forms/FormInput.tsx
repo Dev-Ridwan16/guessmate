@@ -19,7 +19,7 @@ export const FormInput: React.FC<{
         style={newInputStyle}
         secureTextEntry={secureTextEntry}
         placeholder={placeholder}
-        placeholderTextColor={Colors.light.icon}
+        placeholderTextColor={"#c9c9c9"}
       />
     </View>
   )
@@ -32,8 +32,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginBottom: 10,
     paddingRight: 20,
-    maxWidth: 300,
-    width: 300,
+    width: "100%",
     height: 50,
   },
   icon: {
