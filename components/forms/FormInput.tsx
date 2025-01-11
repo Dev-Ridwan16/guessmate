@@ -1,12 +1,14 @@
 import { Colors } from "@/constants/Colors"
 import React from "react"
-import { StyleSheet, TextInput, View } from "react-native"
+import { NativeSyntheticEvent, StyleSheet, TextInput, TextInputChangeEventData, View } from "react-native"
 import Icon from "react-native-vector-icons/FontAwesome"
 export const FormInput: React.FC<{
   icon?: string
   secureTextEntry: boolean
   placeholder?: string
-}> = ({ icon, secureTextEntry, placeholder }) => {
+  value: string
+  onchange: (event: NativeSyntheticEvent<TextInputChangeEventData>) => void
+}> = ({ icon, secureTextEntry, placeholder, value, onchange }) => {
   const paddingLeft = icon ? 45 : 20
   const newInputStyle = {
     ...styles.input,
@@ -16,9 +18,11 @@ export const FormInput: React.FC<{
     <View style={{ position: "relative" }}>
       {icon && <Icon name={icon} style={styles.icon} />}
       <TextInput
+        value={value}
         style={newInputStyle}
         secureTextEntry={secureTextEntry}
         placeholder={placeholder}
+        onChange={onchange}
         placeholderTextColor={"#c9c9c9"}
       />
     </View>
