@@ -13,6 +13,7 @@ type FontAwesomeIconName =
   | "save"
   | "plus"
   | "times"
+  | "check"
 
 export const CustomIcon: React.FC<{
   name: FontAwesomeIconName
