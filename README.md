@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# 🎭 GuessMate
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Guessmate is an open source heads up game built with React Native and Expo, where players can tilt the their device to move to the next question
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+✅ Gesture-based navigation using the Accelerometer
+✅ Tilt up to mark as correct and gain 1 point
+✅ Tilt down to skip without scoring
+✅ Simple and interactive UI
 
-   ```bash
-   npm install
-   ```
+## 🚀 Installation & Setup
 
-2. Start the app
+1. Clone the repository
+`https://github.com/Dev-Ridwan16/guessmate.git`
 
-   ```bash
-    npx expo start
-   ```
+2. Switch to its direction
+`cd guessmate`
 
-In the output, you'll find options to open the app in a
+3. Install dependencies
+   `npm install`
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. Install Expo CLI (if not installed)
+   `npm install -g expo-cli`
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+5. Start the Expo development server
+   `expo start` or `npm start`
 
-## Get a fresh project
+6. Run on your device
+   Use Expo Go app (scan the QR code)
+   Or run on an emulator (expo run:android or expo run:ios)
 
-When you're ready, run:
+## 🎮 How to Play
+1. Start the game, and a question will appear.
+2. Tilt your phone up (face up) to mark the answer as correct and gain 1 point.
+3. Tilt your phone down (face down) to skip without scoring.
+4. Keep playing and have fun!
 
-```bash
-npm run reset-project
-```
+## 🛠️ Technologies Used
+✅ React Native
+✅ Expo
+✅ expo-sensors (for detecting device tilt)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🤝 Contributing
+GuessMate is open-source, and contributions are welcome!
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository
+2. Create a new branch (feature-branch)
+3. Make your changes
+4. Submit a pull request 🎉
