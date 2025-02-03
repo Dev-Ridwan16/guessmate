@@ -14,7 +14,7 @@ Guessmate is an open source heads up game built with React Native and Expo, wher
 1. Clone the repository
 `https://github.com/Dev-Ridwan16/guessmate.git`
 
-2. Switch to its direction
+2. Change directory
 `cd guessmate`
 
 3. Install dependencies
