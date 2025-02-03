@@ -4,14 +4,14 @@ Guessmate is an open source heads up game built with React Native and Expo, wher
 
 ## 📱 Features
 
-✅ Gesture-based navigation using the Accelerometer
-✅ Tilt up to mark as correct and gain 1 point
-✅ Tilt down to skip without scoring
-✅ Simple and interactive UI
+✅ Gesture-based navigation using the Accelerometer  
+✅ Tilt up to mark as correct and gain 1 point  
+✅ Tilt down to skip without scoring  
+✅ Simple and interactive UI  
 
 ## 🚀 Installation & Setup
 
-1. Clone the repository
+1. Clone the repository  
 `https://github.com/Dev-Ridwan16/guessmate.git`
 
 2. Change directory
