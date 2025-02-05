@@ -36,8 +36,8 @@ Guessmate is an open source heads up game built with React Native and Expo, wher
 3. Tilt your phone down (face down) to skip without scoring.  
 4. Keep playing and have fun!
    
-[![Watch the video](./demo.mp4)](./demo.mp4)  
-![Demo Video](./demo.mp4)
+[![Watch the video](./IMG_5293.MP4)](./IMG_5293.MP4)  
+![Demo Video](./IMG_5293.MP4)
 
 ## 🛠️ Technologies Used
 ✅ React Native  
